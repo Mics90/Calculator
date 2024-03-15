@@ -1,9 +1,10 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+[assembly: ExportFont("digital-7.ttf")]
 namespace Calculator
 {
+    
     public partial class App : Application
     {
         public App()
@@ -12,7 +13,7 @@ namespace Calculator
 
             MainPage = new MainPage();
         }
-
+        
         protected override void OnStart()
         {
         }
