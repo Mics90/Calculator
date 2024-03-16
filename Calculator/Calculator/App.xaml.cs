@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-[assembly: ExportFont("digital-7.ttf")]
+[assembly:ExportFont("digital-7.ttf")]
 namespace Calculator
 {
     
@@ -25,5 +25,7 @@ namespace Calculator
         protected override void OnResume()
         {
         }
+
+        
     }
 }
