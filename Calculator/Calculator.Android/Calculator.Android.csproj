@@ -64,9 +64,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\digital-7 %28italic%29.ttf" />
-    <None Include="Assets\digital-7 %28mono italic%29.ttf" />
-    <None Include="Assets\digital-7 %28mono%29.ttf" />
+    <ReferenceJar Include="Assets\digital-7 %28italic%29.ttf" />
+    <ReferenceJar Include="Assets\digital-7 %28mono italic%29.ttf" />
+    <ReferenceJar Include="Assets\digital-7 %28mono%29.ttf" />
     <EmbeddedResource Include="Assets\digital-7.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
